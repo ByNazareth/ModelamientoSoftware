@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ModelamientoDeSoftware
 {
-    public partial class MantenedorMaterial : Form
+    public partial class MantenedorReqCompra : Form
     {
-        public MantenedorMaterial()
+        public MantenedorReqCompra()
         {
             InitializeComponent();
+        }
+
+        private void labael5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

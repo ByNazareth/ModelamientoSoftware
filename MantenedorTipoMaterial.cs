@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ModelamientoDeSoftware
 {
-    public partial class MantenedorCliente : Form
+    public partial class MantenedorTipoMaterial : Form
     {
-        public MantenedorCliente()
+        public MantenedorTipoMaterial()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

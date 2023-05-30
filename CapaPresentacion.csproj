@@ -46,23 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenedor Pago.cs">
+    <Compile Include="MantenedorMarca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenedor Pago.Designer.cs">
-      <DependentUpon>Mantenedor Pago.cs</DependentUpon>
+    <Compile Include="MantenedorMarca.Designer.cs">
+      <DependentUpon>MantenedorMarca.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorCliente.cs">
+    <Compile Include="MantenedorTipoMaterial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorCliente.Designer.cs">
-      <DependentUpon>MantenedorCliente.cs</DependentUpon>
+    <Compile Include="MantenedorTipoMaterial.Designer.cs">
+      <DependentUpon>MantenedorTipoMaterial.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorMaterial.cs">
+    <Compile Include="MantenedorOrdenCompra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorMaterial.Designer.cs">
-      <DependentUpon>MantenedorMaterial.cs</DependentUpon>
+    <Compile Include="MantenedorOrdenCompra.Designer.cs">
+      <DependentUpon>MantenedorOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorReqCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorReqCompra.Designer.cs">
+      <DependentUpon>MantenedorReqCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorPago.Designer.cs">
+      <DependentUpon>MantenedorPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorRegMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorRegMaterial.Designer.cs">
+      <DependentUpon>MantenedorRegMaterial.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenedorProveedor.cs">
       <SubType>Form</SubType>
@@ -72,6 +90,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedorMarca.resx">
+      <DependentUpon>MantenedorMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorOrdenCompra.resx">
+      <DependentUpon>MantenedorOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProveedor.resx">
+      <DependentUpon>MantenedorProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorRegMaterial.resx">
+      <DependentUpon>MantenedorRegMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorPago.resx">
+      <DependentUpon>MantenedorPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorReqCompra.resx">
+      <DependentUpon>MantenedorReqCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTipoMaterial.resx">
+      <DependentUpon>MantenedorTipoMaterial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -93,6 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
